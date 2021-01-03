@@ -1,0 +1,10 @@
+.portfolio {
+    &__area {
+        &__single {
+            cursor: pointer;
+            img {
+                display: block;
+            }
+        }
+    }
+}

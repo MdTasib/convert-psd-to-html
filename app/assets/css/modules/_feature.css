@@ -1,0 +1,35 @@
+.feature {
+    &__content {
+        &__icon {
+            position: relative;
+            margin-top: 15px;
+            .shape {
+                border: 2px solid $white;
+            }
+            i {
+                position: absolute;
+                top: 17px;
+                left: 17px;
+                transform: translate(-50%, -50%);
+                color: $white;
+            }
+        }
+        &__text {
+            margin-left: 10px;
+            h6 {
+                color: $white;
+                font-size: 16px;
+                font-weight: 100;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+        &__single {
+            margin: 20px;
+            @mixin atMedium {
+                margin: 10px;
+            }
+        }
+    }
+}

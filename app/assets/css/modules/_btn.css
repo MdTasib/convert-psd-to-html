@@ -1,0 +1,17 @@
+button {
+    cursor: pointer;
+}
+.btn {
+    background: $active;
+    color: $white;
+    border: 0;
+    padding: 12px 25px;
+    font-size: 14px;
+    &:hover {
+        background: #ce016a;
+    }
+    margin: 10px;
+    @mixin atMedium {
+        margin: 20px;
+    }
+}

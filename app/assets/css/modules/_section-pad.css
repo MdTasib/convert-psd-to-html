@@ -1,0 +1,18 @@
+.section-pad {
+    padding: 40px 0px;
+    @mixin atMedium {
+        padding: 80px 0px;
+    }
+    &__big {
+        padding: 100px 0px;
+        @mixin atMedium {
+            padding: 150px 0px;
+        }
+    }
+    &__small {
+        padding: 15px 0px;
+        @mixin atMedium {
+            padding: 25px 0px;
+        }
+    }
+}

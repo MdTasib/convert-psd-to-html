@@ -1,0 +1,53 @@
+.header {
+    padding: 25px 0px;
+    &__logo {
+        a {
+            color: $white;
+            font-size: 24px;
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            line-height: 61px;
+            span {
+                color: $active;
+            }
+        }
+    }
+    .main-menu {
+        ul li {
+            display: inline-block;
+            a {
+                display: block;
+                text-transform: uppercase;
+                color: $white;
+                font-size: 14px;
+                padding: 10px 8px;
+                @mixin atXmedium {
+                    padding: 10px 13px;
+                }
+            &:hover {
+                color: $active;
+            }
+            }
+            &.active a {
+                color: $active;
+            }
+        }
+    }
+    &__content {
+        @mixin atMedium {
+            max-width: 450px;
+        }
+        margin-right: auto;
+        p {
+            font-size: 14px;
+        }
+        padding: 80px 0px;
+        @mixin atMedium {
+            padding: 150px 0px;
+        }
+    }
+    .headline {
+        color: $white;
+    }
+}

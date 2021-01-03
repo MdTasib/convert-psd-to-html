@@ -1,0 +1,43 @@
+.offer {
+    background: $sectionbg;
+    &__area {
+        &__single {
+            position: relative;
+            background: $white;
+            padding: 25px;
+            margin: 15px;
+            ul {
+                padding: 0;
+                margin: 5px 20px;
+            }
+            h2 {
+                color: $ongray;
+                font-size: 34px;
+            }
+            ul li {
+                font-size: 14px;
+            }
+            ul li, hr, span {
+                color: $gray;
+            }
+            button {
+                position: absolute;
+                bottom: -5%;
+                left: 50%;
+                transform: translate(-50%);
+                margin: 0;
+                &.btn {
+                    background: $ongray;
+                }
+            }
+            &:hover {
+                button.btn {
+                    background: $active;
+                }
+                span, h2 {
+                    color: $active;
+                }
+            }
+        }
+    }
+}

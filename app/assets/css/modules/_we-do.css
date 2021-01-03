@@ -1,0 +1,22 @@
+.we-do {
+    &__head {
+        max-width: 900px;
+        margin: 0 auto;
+        p {
+            color: $gray;
+        }
+    }
+    &__single {
+        position: relative;
+        &__content {
+            position: absolute;
+            top: 36%;
+            left: 50%;
+            transform: translate(-50%);
+            span {
+                font-size: 28px;
+            }
+            line-height: 5px;
+        }
+    }
+}

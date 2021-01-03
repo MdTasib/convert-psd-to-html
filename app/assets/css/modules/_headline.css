@@ -1,0 +1,10 @@
+.headline {
+        color: $ongray;
+        font-size: 22px;
+        @mixin atMedium {
+            font-size: 28px;
+        }
+}
+.spanc {
+    color: $active;
+}

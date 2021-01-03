@@ -1,0 +1,36 @@
+.services {
+    &__single {
+        position: relative;
+        padding: 25px;
+        &:hover {
+            .services__single__icon {
+                .shape {
+                    background: $active;
+                }
+                i {
+                    color: $white;
+                }
+            }
+        }
+        i {
+            position: absolute;
+            top: 50px;
+            left: 42px;
+            transform: translate(-50%, -50%);
+            color: $active;
+        }
+        &__icon {
+             margin-top: 10px;
+        }
+        &__content {
+            margin-left: 15px;
+            h6 {
+                font-size: 16px;
+                color: $ongray;
+            }
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+}

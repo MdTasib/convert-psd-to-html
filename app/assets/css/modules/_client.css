@@ -1,0 +1,14 @@
+.clients {
+    &__area {
+        overflow: hidden;
+        position: relative;
+    }
+    &__single {
+        margin-top: 15px;
+        padding: 0px 70px; 
+    }
+}
+/* our team area  */
+.team__member__single {
+    padding: 20px;
+}

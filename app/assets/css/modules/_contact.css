@@ -1,0 +1,23 @@
+.contact {
+    &__info {
+        max-width: 900px;
+        margin: 0 auto;
+        input {
+            width: 100%;
+            background: $sectionbg;
+            padding: 15px;
+            border: none;
+            margin: 15px 0px;
+        }
+        textarea {
+            width: 100%;
+            background: $sectionbg;
+            border: none;
+            padding: 12px;
+            margin-top: 15px;
+        }
+    }
+    button {
+        padding: 12px 40px;
+    }
+}

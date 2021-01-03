@@ -1,0 +1,45 @@
+.post {
+    background: $sectionbg;
+    &__single {
+        position: relative;
+        &:before{
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 3px;
+            background: $active;
+            bottom: 0;
+            left: 0;
+            transition: .5s;
+        }
+        &:hover:before{
+            width: 100%;
+            transition: .5s;
+        }
+        background: $white;
+        margin: 15px;
+        cursor: pointer;
+        &__content {
+            padding: 11px;
+            h4 {
+                font-size: 14px;
+                color: $ongray;
+            }
+            p {
+                font-size: 12px;
+                color: $gray;
+            }
+            .date {
+                span {
+                    font-size: 12px;
+                    margin: 0px 10px;
+                }
+                i {
+                    color: $active;
+                    font-size: 12px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}

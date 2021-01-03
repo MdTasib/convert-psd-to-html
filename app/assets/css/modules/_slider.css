@@ -1,0 +1,67 @@
+.owl-carousel {
+        .owl-nav {
+            button {
+                position: absolute;
+                top: 40%;
+                transform: translate(-50%);
+                &.owl-prev {
+                    left: 3%;
+                    color: #fff;
+                    font-size: 30px;
+                }
+                &.owl-next {
+                    right: 3%;
+                    color: #fff;
+                    font-size: 30px;
+                }
+            }
+        }
+    .owl-dots {
+        padding-top: 20px;
+        .owl-dot {
+            width: 10px;
+            height: 10px;
+            background: $ongray;
+            margin: 5px;
+            transform: rotate(45deg);
+            &:hover {
+                background: $active;
+            }
+        }
+        .active {
+            background: $active;
+        }
+    }
+}
+/* clients area slider */
+.clients {
+    &__area {
+        .owl-item {
+            float: left;
+        }
+        .owl-nav {
+            button {
+                position: absolute;
+                top: 22%;
+                transform: translate(-50%);
+                background: $active;
+                border: none;
+                &.owl-prev {
+                    left: 3%;
+                    color: #fff;
+                    font-size: 30px;
+                    padding: 0px 10px;
+                }
+                &.owl-next {
+                    right: 3%;
+                    color: #fff;
+                    font-size: 30px;
+                    padding: 0px 10px;
+                }
+            }
+        }
+        .owl-dots {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6,button {
+    font-family: sans-serif; 
+}
+p {
+    font-size: 14px;
+    color: $gray;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.main-menu ul li a,
+.post__single,
+.post__single:hover,
+.offer__area__single:hover span,h2,
+.services__single:hover .shape,i,
+.services__single .shape,
+.btn{
+    transition: .7s;
+}
+.text-center {
+    text-align: center;
+}
+.text-cfm {
+    @mixin atTillmedium {
+        text-align: center;
+    }
+}
+.no-mar {
+    margin: 0;
+}
+.no-pad {
+    padding: 0;
+}
+.shape {
+    width: 35px;
+    height: 35px;
+    border: 2px solid $gray;
+    transform: rotate(45deg);
+}

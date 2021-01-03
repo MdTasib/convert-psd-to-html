@@ -1,0 +1,18 @@
+.subscribe {
+    &__head {
+        max-width: 550px;
+        margin: 0 auto;
+        input {
+            padding: 20px;
+            margin: 30px 0px;
+            border: none;
+            width: 100%;
+            font-style: italic;
+            font-size: 14px;
+            opacity: .2;
+        }
+        h4,p {
+            color: $white;
+        }
+    }
+}

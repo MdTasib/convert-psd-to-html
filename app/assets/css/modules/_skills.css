@@ -1,0 +1,16 @@
+.skills {
+    &__area {
+        .circle-chart__background {
+            stroke: $sectionbg;
+        }
+        .success-stroke {
+            stroke: $active;
+        }
+        text.circle-chart__percent {
+            stroke: $ongray;
+        }
+        h4 {
+            color: $ongray;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.footer {
+    &__icon {
+        i {
+            margin: 0px 10px;
+            font-size: 30px;
+        }
+        a:nth-child(1) {
+            color: #2980b9;
+        }
+        a:nth-child(2) {
+            color: #00c4d0;
+        }
+        a:nth-child(3) {
+            color: #e83a93;
+        }
+    }
+    &__content {
+        p {
+            color: $gray;
+        }
+    }
+}
+/* scroll button css  */
+.scroll {
+    button {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        padding: 10px 16px;
+        border: none;
+        border-radius: 5px;
+        background: #d0d0d0;
+        visibility: hidden;
+        opacity: 0;
+        i{
+            color: $white;
+        }
+    }
+    &__active button {
+        visibility: visible;
+        opacity: 1;
+    }
+}
